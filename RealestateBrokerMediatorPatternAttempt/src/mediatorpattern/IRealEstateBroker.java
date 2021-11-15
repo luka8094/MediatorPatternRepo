@@ -1,6 +1,6 @@
 package mediatorpattern;
 
-public interface IRealestateBroker {
+public interface IRealEstateBroker {
 
     void settleDeal();
 

@@ -1,19 +1,16 @@
 package mediatorpattern;
 
-import java.util.Random;
-
 public class Seller extends Customer{
-
     double price;
-    IRealestateBroker realestateBroker;
+    IRealEstateBroker realEstateBroker;
 
-    Seller(IRealestateBroker realestateBroker, double price){
-        super(realestateBroker);
+    public Seller (IRealEstateBroker realEstateBroker, double price){
+        super(realEstateBroker);
         this.price = price;
     }
 
     @Override
-    double getBid() {
+    public double getBid() {
         return price;
     }
 }

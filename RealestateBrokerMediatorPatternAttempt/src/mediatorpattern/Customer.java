@@ -2,12 +2,13 @@ package mediatorpattern;
 
 abstract class Customer{
 
-    IRealestateBroker realestateBroker;
+    IRealEstateBroker realEstateBroker;
 
-    Customer(IRealestateBroker realestateBroker){
-        this.realestateBroker = realestateBroker;
+    public Customer(IRealEstateBroker realEstateBroker){
+        this.realEstateBroker = realEstateBroker;
     }
 
-    abstract double getBid();
+    public abstract double getBid();
 
 }
+

@@ -1,9 +1,9 @@
 package mediatorpattern;
 
-public class RealestateBroker implements IRealestateBroker{
+public class RealEstateBroker implements IRealEstateBroker {
 
-    Buyer buyer;
-    Seller seller;
+    private Buyer buyer;
+    private Seller seller;
 
     public void setBuyer(Buyer buyer) {
         this.buyer = buyer;
