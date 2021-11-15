@@ -2,7 +2,7 @@ package mediatorpattern;
 
 abstract class Customer{
 
-    IRealEstateBroker realEstateBroker;
+    private IRealEstateBroker realEstateBroker;
 
     public Customer(IRealEstateBroker realEstateBroker){
         this.realEstateBroker = realEstateBroker;

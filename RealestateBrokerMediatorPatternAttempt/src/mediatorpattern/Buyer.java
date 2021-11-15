@@ -2,8 +2,8 @@ package mediatorpattern;
 
 public class Buyer extends Customer{
 
-    IRealEstateBroker realEstateBroker;
-    double price;
+    private IRealEstateBroker realEstateBroker;
+    private double price;
 
     Buyer(IRealEstateBroker realEstateBroker, double price){
         super(realEstateBroker);

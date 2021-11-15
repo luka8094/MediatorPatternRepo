@@ -14,7 +14,6 @@ public class Main {
         //Reference back to the RealEstateBroker object the Seller and Buyer instances
         realEstateBroker.setSeller(seller);
         realEstateBroker.setBuyer(buyer);
-
         realEstateBroker.settleDeal();
 
     }

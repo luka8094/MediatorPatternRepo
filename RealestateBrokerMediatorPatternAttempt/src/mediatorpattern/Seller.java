@@ -1,10 +1,11 @@
 package mediatorpattern;
 
-public class Seller extends Customer{
-    double price;
-    IRealEstateBroker realEstateBroker;
+public class Seller extends Customer {
 
-    public Seller (IRealEstateBroker realEstateBroker, double price){
+    private double price;
+    private IRealEstateBroker realEstateBroker;
+
+    public Seller(IRealEstateBroker realEstateBroker, double price) {
         super(realEstateBroker);
         this.price = price;
     }
